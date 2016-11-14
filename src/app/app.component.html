@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<ul>
+  <h1>Lalinda Sampath</h1>
+  <li class="text" *ngFor="let item of employees | async">
+    
+    {{item.firstName}}
+  </li>
+</ul>
